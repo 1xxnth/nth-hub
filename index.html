@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="NTH Hub — track, boost, play more. Manage your Steam gaming activity from one clean desktop app.">
+  <title>NTH Hub — More Playtime Ahead</title>
+  <link rel="icon" href="assets/nth-hub-logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="NTH Hub home">
+      <span class="brand-mark"><img src="assets/nth-hub-logo.png" alt=""></span>
+      <span>NTH <b>HUB</b></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#features">Features</a><a href="#screenshots">Screenshots</a><a href="#requirements">Requirements</a>
+    </nav>
+    <a class="nav-download" href="https://guns.lol/nth.xxx/" target="_blank" rel="noopener noreferrer">My Socials <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span> NTH HUB <span class="eyebrow-divider">/</span> VERSION 0.4.0</div>
+        <h1>More playtime.<br><span>Less hassle.</span></h1>
+        <p class="hero-description">Keep your games active, explore your Steam profile, and understand your gaming activity — all from one focused desktop hub.</p>
+        <div class="hero-actions">
+          <a class="button button-light" id="download-link" href="https://github.com/1xxnth/nth-hub/releases/download/v0.4.0/NTH-Hub-Setup.exe">Download for Windows <span aria-hidden="true">↓</span></a>
+          <a class="button button-dark" href="#screenshots">Explore the app <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-check">✓</i> Windows desktop app</span><span><i class="meta-check">✓</i> Version 0.4.0</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-topline"><span><i class="window-dot"></i><i class="window-dot"></i><i class="window-dot"></i></span><span>NTH HUB <small>● ONLINE</small></span></div>
+        <img src="assets/dashboard.png" alt="NTH Hub dashboard showing active games and monthly hours gained">
+        <div class="visual-caption"><span class="caption-icon">↗</span><span><b>Your gaming activity, at a glance</b><small>One home for your library and stats.</small></span><span class="caption-live"><i></i> LIVE UI</span></div>
+      </div>
+      <div class="hero-bottomline"><span>BUILT FOR YOUR LIBRARY</span><span>01 — TRACK</span><span>02 — BOOST</span><span>03 — PLAY MORE</span></div>
+    </section>
+
+    <section class="feature-strip section-wrap" id="features">
+      <div class="section-heading">
+        <div><div class="eyebrow">BUILT INTO NTH HUB</div><h2>Your games.<br><span>One place.</span></h2></div>
+        <p>A compact, dark-first interface designed to keep the important things close and the clutter out.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-wide"><div class="feature-number">01 / LIBRARY</div><div class="feature-icon">⌘</div><h3>Game boosting</h3><p>See which games are active, manage boosting status, and follow your gained playtime from one dashboard.</p><div class="mini-status"><i></i> Boosting <span>+0.5h</span></div></article>
+        <article class="feature-card"><div class="feature-number">02 / PROFILE</div><div class="feature-icon">◎</div><h3>Steam profile insights</h3><p>Review account standing, level, friends, inventory value, and public profile details.</p></article>
+        <article class="feature-card"><div class="feature-number">03 / DISCOVER</div><div class="feature-icon">⌕</div><h3>Find free games</h3><p>Browse free-to-play titles and limited-time free-to-keep promotions.</p></article>
+        <article class="feature-card"><div class="feature-number">04 / SYSTEM</div><div class="feature-icon">▥</div><h3>PC information</h3><p>Keep an eye on CPU, memory, GPU usage, uptime, and hardware information.</p></article>
+        <article class="feature-card"><div class="feature-number">05 / PROGRESS</div><div class="feature-icon">↗</div><h3>Statistics & activity</h3><p>Follow hours gained, game-by-game progress, and a readable timeline of recent events.</p></article>
+      </div>
+    </section>
+
+    <section class="screens-section section-wrap" id="screenshots">
+      <div class="section-heading screenshots-heading">
+        <div><div class="eyebrow">TAKE A CLOSER LOOK</div><h2>Clean interface.<br><span>Useful details.</span></h2></div>
+        <div class="screen-controls"><button class="screen-prev" aria-label="Previous screenshot">←</button><button class="screen-next" aria-label="Next screenshot">→</button></div>
+      </div>
+      <div class="screenshot-track" tabindex="0" aria-label="App screenshots">
+        <article class="screenshot-card is-active"><button class="screenshot-image screenshot-open" type="button" aria-label="Open NTH Hub dashboard"><img src="assets/dashboard.png" alt=""></button><div class="screenshot-info"><span>01</span><div><h3>Dashboard</h3><p>Active games and hours gained.</p></div><span class="screenshot-arrow">↗</span></div></article>
+        <article class="screenshot-card"><button class="screenshot-image screenshot-open" type="button" aria-label="Open NTH Hub game library"><img src="assets/games.png" alt=""></button><div class="screenshot-info"><span>02</span><div><h3>Game library</h3><p>Filter and manage your games.</p></div><span class="screenshot-arrow">↗</span></div></article>
+        <article class="screenshot-card"><button class="screenshot-image screenshot-open" type="button" aria-label="Open NTH Hub Steam profile insights"><img src="assets/profile.png" alt=""></button><div class="screenshot-info"><span>03</span><div><h3>Profile insights</h3><p>Account details and standing.</p></div><span class="screenshot-arrow">↗</span></div></article>
+        <article class="screenshot-card"><button class="screenshot-image screenshot-open" type="button" aria-label="Open NTH Hub statistics"><img src="assets/statistics.png" alt=""></button><div class="screenshot-info"><span>04</span><div><h3>Statistics</h3><p>Understand your progress.</p></div><span class="screenshot-arrow">↗</span></div></article>
+        <article class="screenshot-card"><button class="screenshot-image screenshot-open" type="button" aria-label="Open NTH Hub Windows installer"><img src="assets/installer.png" alt=""></button><div class="screenshot-info"><span>05</span><div><h3>Simple setup</h3><p>A straightforward Windows installer.</p></div><span class="screenshot-arrow">↗</span></div></article>
+      </div>
+      <p class="screens-note">Select any screenshot to view it at full size. Use the arrows or keyboard to browse.</p>
+      <dialog class="screenshot-viewer" aria-label="Screenshot viewer">
+        <div class="viewer-toolbar"><span class="viewer-counter" aria-live="polite"></span><button class="viewer-close" type="button" aria-label="Close screenshot viewer">×</button></div>
+        <button class="viewer-prev" type="button" aria-label="Previous screenshot">←</button>
+        <img class="viewer-image" alt="">
+        <button class="viewer-next" type="button" aria-label="Next screenshot">→</button>
+        <p class="viewer-caption"></p>
+      </dialog>
+    </section>
+
+    <section class="requirements section-wrap" id="requirements">
+      <div class="requirements-title"><div class="eyebrow">BEFORE YOU INSTALL</div><h2>Good to know.</h2></div>
+      <div class="requirement-row"><span class="req-label">PLATFORM</span><b>Windows desktop</b><span class="req-detail">Installer shown in the setup screenshot</span></div>
+      <div class="requirement-row"><span class="req-label">VERSION</span><b>0.4.0</b><span class="req-detail">Current version shown in supplied screenshots</span></div>
+      <div class="requirement-row"><span class="req-label">DISK SPACE</span><b>About 307 MB</b><span class="req-detail">Based on the installer screenshot; confirm for the release you publish</span></div>
+      <div class="requirement-row"><span class="req-label">ACCOUNT</span><b>Steam connection</b><span class="req-detail">Steam-related features may require a Steam account and connection</span></div>
+    </section>
+
+    <section class="final-cta section-wrap">
+      <div><div class="eyebrow">NTH HUB / 0.4.0</div><h2>Your next session<br>starts here.</h2></div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a class="brand footer-brand" href="#top"><span class="brand-mark"><img src="assets/nth-hub-logo.png" alt=""></span><span>NTH <b>HUB</b></span></a>
+    <span>Track. Boost. Play More.</span>
+    <span>Made with <span class="heart">♥</span> by NTH</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
